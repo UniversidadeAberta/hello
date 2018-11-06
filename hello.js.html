@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+  <body>
+    <p>Before javascript...</p>
+    <script>
+     /*
+      * Requires: A browser
+      * Usage example: firefox hello.js.html 
+      */
+     const x = 'Hello ';
+     const y = 'World';
+
+     function helloConsole(x, y) {
+       document.write(x, y);
+     }
+
+     function helloAlert(x, y) {
+       var str = x + y;
+       window.alert(str);
+     }
+
+     helloConsole(x, y);
+     helloAlert(x, y);
+
+    </script>
+    <p>...After javascript.</p>
+  </body>
+</html>
